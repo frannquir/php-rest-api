@@ -1,0 +1,24 @@
+ # IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PHP
+vendor/
+composer.lock
+
+# Database
+*.sql
+*.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# XAMPP specific
+nbproject/
