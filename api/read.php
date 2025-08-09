@@ -22,12 +22,12 @@ if($num > 0) {
         $post_item = array(
             'id' => $id,
             'title' => $title,
-            'body' => html_entity_decode($body);
+            'body' => html_entity_decode($body),
             'author' => $author,
             'category_id' => $category_id,
             'category_name' => $category_name
         );
-        array_push($post_arr['data'] $post_item);
+        array_push($post_arr['data'], $post_item);
     }
     // Convert to JSON
     echo json_encode($post_arr);
